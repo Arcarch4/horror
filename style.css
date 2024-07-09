@@ -1,0 +1,136 @@
+* {
+    width: auto;
+    height: auto;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+    margin-bottom: 10px;
+    /*    margin-left: 30px;*/
+    overflow: hidden;
+    padding: 0px;
+}
+
+body {
+    /*  height: 50vh;
+   outline: 2px solid black;*/
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-style: normal;
+    background-color: rgb(254, 255, 254);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one {
+    color: rgb(250, 4, 127);
+    padding-top: 50px;
+    padding-bottom: 130px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: block;
+    border-style: double;
+    align-items: center;
+}
+
+.one:hover {
+    background-image: url(dark.gif);
+    background-repeat: no-repeat;
+    color: rgb(3, 3, 3);
+    background-color: black;
+    /* padding-bottom: -80%; */
+    /* padding-left: 50px; */
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* margin-top: 40px; */
+    background-position: bottom-center;
+}
+
+h1 {
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overlay {
+    opacity: 0%;
+    transition: .5s ease;
+    background-image: url(horror.png);
+}
+
+.one:hover .overlay {
+    opacity: 1;
+}
+
+
+/*.imagebody1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; scroll bar???????
+}*/
+
+body.imagebody1 {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+fullscreen-link {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*   object-fit: cover;
+      overflow: hidden;*/
+}
+
+.fullscreen-link img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+}
+
+
+/* Ensures the image covers the entire area */
+
+.text-body {
+    text-decoration: none;
+    align-self: center;
+    font-size: 21px;
+    /* font-style: inherit;
+    /* font-family: 'Denk One', sans-serif; */
+    /* font-display: initial; */
+    color: rgb(250, 6, 6);
+    font-family: "Creepster", system-ui;
+    font-weight: 50;
+    font-style: normal;
+    text-align: center;
+    padding-left: 52%;
+    padding-right: 25%;
+    padding-top: 10%;
+    background-image: url(old-book1.gif);
+    background-size: contain;
+}
+
+
+/* .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} */
